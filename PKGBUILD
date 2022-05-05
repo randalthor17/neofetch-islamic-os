@@ -26,7 +26,7 @@ optdepends=(
   'xorg-xrandr: Resolution detection (Multi Monitor + Refresh rates)'
   'xorg-xwininfo: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal'
 )
-_commit="0a676700b05e4090376f4bf6470125edf355a75c"
+_commit="f13079e5d0ca0f946107fa4d254e418be997ffa6"
 source=("git+https://github.com/randalthor17/neofetch-islamic-os.git#commit=${_commit}")
 sha256sums=('SKIP')
 
