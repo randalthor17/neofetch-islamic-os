@@ -1,0 +1,56 @@
+diff --git a/neofetch b/neofetch
+index 48b96d21..e96e91ba 100755
+--- a/neofetch
++++ b/neofetch
+@@ -5150,7 +5150,7 @@ ASCII:
+                                 DracOS, DarkOs, Itc, DragonFly, Drauger, Elementary, EndeavourOS, Endless,
+                                 EuroLinux, Exherbo, Fedora, Feren, FreeBSD, FreeMiNT, Frugalware,
+                                 Funtoo, GalliumOS, Garuda, Gentoo, Pentoo, gNewSense, GNOME, GNU,
+-                                GoboLinux, Grombyang, Guix, Haiku, Huayra, Hyperbola, iglunix, janus, Kali,
++                                GoboLinux, Grombyang, Guix, Haiku, Huayra, Hyperbola, iglunix, \"Islamic OS\", janus, Kali,
+                                 KaOS, KDE_neon, Kibojoe, Kogaion, Korora, KSLinux, Kubuntu, LEDE,
+                                 LaxerOS, LibreELEC, LFS, Linux_Lite, LMDE, Lubuntu, Lunar, macos,
+                                 Mageia, MagpieOS, Mandriva, Manjaro, TeArch, Maui, Mer, Minix, LinuxMint,
+@@ -7982,6 +7982,29 @@ ${c1}     |
+ EOF
+         ;;
+ 
++        "Islamic OS"*|"islamic"*|"Islamic"*)
++            set_colors 2
++            read -rd '' ascii_data <<'EOF'
++${c1}
++           ..----                       
++       ..=:=:-                          
++     -:=:==:.          .=--    .--.     
++   -=======             =========:      
++ .:=======.           ..=========.      
++ :========         ..:=:==========:-    
++-=========               -====:------   
++==========-               -==.          
++===========-               ..           
++:===========:.                          
++ :============:.                        
++ .-==============--                   -.
++   .===============:=:----     .---:=:. 
++     -:============================:.   
++        --======================--      
++            ---:==========----          
++EOF
++        ;;
++
+         "januslinux"*|"janus"*|"Ataraxia Linux"*|"Ataraxia"*)
+             set_colors 4 5 6 2
+             read -rd '' ascii_data <<'EOF'
+diff --git a/neofetch.1 b/neofetch.1
+index b90b5781..91214ebb 100644
+--- a/neofetch.1
++++ b/neofetch.1
+@@ -312,7 +312,7 @@ Devuan, DracOS, DarkOs, Itc, DragonFly, Drauger, Elementary,
+ EndeavourOS, Endless, EuroLinux, Exherbo, Fedora, Feren, FreeBSD,
+ FreeMiNT, Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, Pentoo,
+ gNewSense, GNOME, GNU, GoboLinux, Grombyang, Guix, Haiku, Huayra, HydroOS,
+-Hyperbola, janus, Kali, KaOS, KDE_neon, Kibojoe, Kogaion, Korora,
++Hyperbola, Islamic OS, janus, Kali, KaOS, KDE_neon, Kibojoe, Kogaion, Korora,
+ KSLinux, Kubuntu, LEDE, LaxerOS, LibreELEC, LFS, Linux_Lite, LMDE,
+ Lubuntu, Lunar, macos, Mageia, MagpieOS, Mandriva, Manjaro, TeArch, Maui,
+ Mer, Minix, LinuxMint, Live_Raizo, MX_Linux, Namib, Neptune, NetBSD,
