@@ -7983,7 +7983,7 @@ EOF
         ;;
 
         "Islamic OS"*|"islamic"*|"Islamic"*)
-            set_colors 2 15
+            set_colors 2 2
             read -rd '' ascii_data <<'EOF'
 ${c1}
            ..----                       
